@@ -31,4 +31,4 @@ for (let i = 0; i < colors.length; i++) {
     const color = colors[i];
     reversed.unshift(color);
 }
-console.log(reversed)
+console.log(reversed);
