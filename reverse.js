@@ -24,3 +24,11 @@ for(const color of colors){
     reversed.unshift(color);
 }
 console.log(reversed);
+
+
+
+for (let i = 0; i < colors.length; i++) {
+    const color = colors[i];
+    reversed.unshift(color);
+}
+console.log(reversed)
