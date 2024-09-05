@@ -14,3 +14,13 @@ Write a JavaScript code to reverse the array colors `without using the reverse m
 
 ---
  */
+
+const colors = ['Red', 'Blue', 'Green', 'Yellow', 'Orange'];
+
+const reversed = [];
+
+for(const color of colors){
+    // console.log(color);
+    reversed.unshift(color);
+}
+console.log(reversed);
